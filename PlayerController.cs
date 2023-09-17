@@ -14,6 +14,5 @@ public partial class PlayerController : RigidBody2D
 		};
 
 		MoveAndCollide(move * speed);
-		GD.Print(LinearVelocity);
 	}
 }
